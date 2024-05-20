@@ -14,12 +14,11 @@
 			    <label for="desc">Description: </label> 
 			    <form:input type="text" path="description" id="desc" required="required"/>
 			    
-			    <form:errors path="description" cssClass="text-warning"/>
-			    
 			    <form:input type="hidden" path="id" id="id"/>
 			    <form:input type="hidden" path="done" id="donoe"/>
 			    
 			    <input type="submit" class="btn btn-success">
+			    <form:errors path="description" cssClass="text-warning"/>
 		    </form:form>
 		</div>
 		<script src="webjars/bootstrap/5.1.3/js/bootstrap.min.js"></script>
